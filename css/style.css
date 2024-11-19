@@ -32,23 +32,49 @@ header h1{
 
 /* main  */
 .container{
-    display: block;
+    /* display: block; */
     width: 80%;
     background-color: white;
     padding: 15px 40px;
-    margin: 20px auto;
+    margin: 20px 10%;
 }
 
 .rounded{
     display: inline-block;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
 
-.gray{
+.rounded-small{
+    display: inline-block;
+    padding: 2px;
+    border-radius: 50%;
+
+}
+
+section{
+    margin: 0 0 20px 0;
+}
+
+section ul{
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.b-gray{
     border: gray solid 1px;
     color: gray;
+}
+
+.b-green{
+    border: green solid 1px;
+    color: green;
+}
+
+.b-red{
+    border: red solid 1px;
+    color: red;
 }
 
 .blue{
