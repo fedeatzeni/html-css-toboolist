@@ -41,14 +41,15 @@ header h1{
 
 .rounded{
     display: inline-block;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
 
 }
 
 .rounded-small{
     display: inline-block;
-    padding: 2px;
+    padding: 1px;
     border-radius: 50%;
 
 }
@@ -62,6 +63,11 @@ section ul{
     margin-left: 25px;
 }
 
+li{
+    margin: 5px 0;
+}
+
+/* Borders  */
 .b-gray{
     border: gray solid 1px;
     color: gray;
@@ -77,6 +83,32 @@ section ul{
     color: red;
 }
 
+section span{
+    color: white;
+}
+
+/* Colors  */
 .blue{
     background-color: #4f8dcb;
+}
+
+.purple{
+    background-color: #643864;
+    
+}
+
+.green{
+    background-color: #3c967a;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: #c638a0;
+}
+
+.lime{
+    background-color: rgb(114, 158, 52);
 }
