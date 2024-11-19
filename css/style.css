@@ -29,3 +29,28 @@ header h1{
     vertical-align: middle;
 
 }
+
+/* main  */
+.container{
+    display: block;
+    width: 80%;
+    background-color: white;
+    padding: 15px 40px;
+    margin: 20px auto;
+}
+
+.rounded{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.gray{
+    border: gray solid 1px;
+    color: gray;
+}
+
+.blue{
+    background-color: #4f8dcb;
+}
